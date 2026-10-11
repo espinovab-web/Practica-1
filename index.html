@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curs JavaScript Aplicat i MODIFICAT per segona vegada</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        header { background-color: #2c3e50; color: white; padding: 40px 20px; text-align: center; }
+        nav { background-color: #34495e; display: flex; justify-content: space-around; padding: 10px 0; }
+        nav a { color: white; text-decoration: none; padding: 8px 16px; font-weight: bold; }
+        nav a.active { background-color: #1abc9c; border-radius: 4px; }
+        main { padding: 40px 20px; min-height: 300px; text-align: center; }
+        footer { background-color: #2c3e50; color: white; text-align: center; padding: 15px 0; position: fixed; bottom: 0; width: 100%; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Curs de JavaScript aplicat a interaccions amb elements HTML</h1>
+    </header>
+
+    <nav>
+        <a href="#" class="active">Home</a>
+    </nav>
+
+    <main>
+        <h2>Benvinguts al Curs</h2>
+        <p>Aquest curs està dissenyat per aprendre a manipular el DOM HTML, estil·lar elements en temps real i gestionar atributs mitjançant JavaScript.</p>
+    </main>
+
+    <footer>
+        <p>Footer del sitio - Tots els drets reservats</p>
+    </footer>
+
+</body>
+</html>
+<main>
+    <h2>Benvinguts al Curs</h2>
+    <p>Aquest curs està dissenyat per aprendre a manipular el DOM HTML, estil·lar elements en temps real i gestionar atributs mitjançant JavaScript.</p>
+
+    <section id="contingut-html">
+        <h3>Modificar contingut HTML</h3>
+        <p>Exemple per modificar el text d'un element utilitzant JavaScript:</p>
+        <pre><code>document.getElementById("demo").innerHTML = "Nou contingut!";</code></pre>
+    </section>
+
+    <section id="atributs-html">
+        <h3>Modificar atributs HTML</h3>
+        <p>Exemple per canviar l'atribut src d'una imatge o un enllaç:</p>
+        <pre><code>document.getElementById("miImatge").src = "imatge-nova.jpg";</code></pre>
+    <section id="estils-css">
+        <h3>Modificar estils CSS</h3>
+        <p>Exemple per canviar el color de fons o estils d'un element amb JavaScript:</p>
+        <pre><code>// Canvia el color del fons del document
+document.body.style.backgroundColor = "#f0f0f0";</code></pre>
+    </section>
+    </section>
+</main>
